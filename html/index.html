@@ -1,0 +1,290 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title></title>
+	<link rel="stylesheet" href="css/css.css" />
+	<link rel="stylesheet" href="css/lrtk.css" type="text/css" media="screen" />
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script src="http://unslider.com/unslider.js"></script>
+	<script type="text/javascript" src="js/lrtk.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/jquery.idTabs.min.js"></script>
+<script type="text/javascript">
+function daytime(){
+var timee = new Date();
+var hh = timee.getHours();
+var mm = timee.getMinutes();
+var ss = timee.getSeconds();
+var yy= timee.getFullYear();
+var MM= timee.getMonth()+1;
+var rr= timee.getDate();
+var ww= timee.getDay();
+var days= ["日","一","二","三","四","五","六" ]
+  var n=yy+"年" +MM +"月" + rr+"日" + "  星期"+days[ww];
+  var d=hh+"时"+mm+"分"+ss+"秒";
+  setTimeout(daytime,1000); 
+$("#date").text(n);
+
+}
+
+</script>
+		
+</head>
+<body onload="daytime()">
+<div class="top">
+	<div class="top1"></div>
+	<div class="top2">
+		<img src="images/logo.jpg" alt="" /> 
+		<div class="top2r">
+		<div class="top2rt">
+		<div id="date" class="date fl" ></div>
+		<div class="weather fl"><iframe width="100" scrolling="no" height="25" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=10&icon=1" style="text-align:right"></iframe></div>
+		</div>
+		<div class="email">
+			<a href="#" class="email1">邮箱登录</a>
+			<a href="#" class="email2">修改密码</a>
+		</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+	<div class="top3">
+		<ul>
+			<li><a href="" class="hover">首页</a></li>
+			<li><a href="">企业概况</a></li>
+			<li><a href="">机构设置</a></li>
+			<li><a href="">企业管理</a></li>
+			<li><a href="">党群之窗</a></li>
+			<li><a href="">联系我们</a></li>
+		</ul>
+	</div>
+</div>
+<div class="main">
+	<div class="banner"><img src="images/banner.jpg"></div>
+	<div class="main1">
+		<div class="main1-left fl" id="header">
+			<div class="wrap">
+			   <div id="slide-holder">
+					<div id="slide-runner">
+						<a href="#" target="_blank"><img id="slide-img-1" src="images/left-1.jpg" class="slide" alt="" /></a>
+						<a href="#" target="_blank"><img id="slide-img-2" src="images/left-2.jpg" class="slide" alt="" /></a>
+						<a href="#" target="_blank"><img id="slide-img-3" src="images/left-3.jpg" class="slide" alt="" /></a>
+						<a href="#" target="_blank"><img id="slide-img-4" src="images/left-4.jpg" class="slide" alt="" /></a>
+						<a href="#" target="_blank"><img id="slide-img-5" src="images/left-5.jpg" class="slide" alt="" /></a>
+						<div id="slide-controls">
+						 <p id="slide-client" class="text"><strong></strong><span></span></p>
+						 <p id="slide-desc" class="text"></p>
+						 <p id="slide-nav"></p>
+						</div>
+					</div>
+			   </div>
+			   <script type="text/javascript">
+				if(!window.slider) {
+					var slider={};
+				}
+
+				slider.data= [
+				{
+					"id":"slide-img-1", // 与slide-runner中的img标签id对应
+					"client":"",
+					"desc":"纪委书记黄强莅临共和新路枢纽站检查指导工作1" //这里修改描述
+				},
+				{
+					"id":"slide-img-2",
+					"client":"",
+					"desc":"纪委书记黄强莅临共和新路枢纽站检查指导工作2"
+				},
+				{
+					"id":"slide-img-3",
+					"client":"",
+					"desc":"纪委书记黄强莅临共和新路枢纽站检查指导工作3"
+				},
+				{
+					"id":"slide-img-4",
+					"client":"",
+					"desc":"纪委书记黄强莅临共和新路枢纽站检查指导工作4"
+				},
+				{
+					"id":"slide-img-5",
+					"client":"",
+					"desc":"纪委书记黄强莅临共和新路枢纽站检查指导工作5"
+				},
+				];
+			   </script>
+			</div>
+		</div>
+		<div class="main1-middle fl">
+			<h2>企业动态</h2>
+			<ul class="news">
+				<li><p><a href="">分公司团支部参加交投集团第一届团训班</a></p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+				<li><p>分公司团支部参加交投集团第一届团训班</p><span>2015-09-01</span></li>
+			</ul>
+		</div>
+		<div class="main1-right fr">		
+			<h2>企业荣誉</h2>
+			<div class="honor">
+				<div class="honor-content">
+					<ul>
+						<li><a href=""><img src="images/right-1.jpg"></a></li>
+						<li><a href=""><img src="images/right-2.jpg"></a></li>
+						<li><a href=""><img src="images/right-3.jpg"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+	<div class="main2">
+		<div class="main2-left fl">
+			<ul class="idTabs"> 
+			  <li><a href="#tab1">公司一周安排</a></li>			 
+			  <li><a href="#tab2">集团一周安排</a></li>	
+			  <div class="clr"></div>			  
+			</ul>
+			<div id="tab1">
+				<ul class="ap">
+					<li>第一周（2015年9月6日—2015年9月11日）</li>
+					<li>第二周（2015年9月6日—2015年9月11日）</li>
+					<li>第三周（2015年9月6日—2015年9月11日）</li>
+					<li>第四周（2015年9月6日—2015年9月11日）</li>
+				</ul>
+			</div>
+			<div id="tab2">
+				<ul class="ap">
+					<li>第一周（2015年10月6日—2015年10月11日）</li>
+					<li>第二周（2015年10月6日—2015年10月11日）</li>
+					<li>第三周（2015年10月6日—2015年10月11日）</li>
+					<li>第四周（2015年10月6日—2015年10月11日）</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main2-middle fl">
+			<ul class="idTabs"> 
+			  <li><a href="#tab3">公示公告</a></li>			 
+			  <li><a href="#tab4">公司发文</a></li>	
+			  <div class="clr"></div>			  
+			</ul>
+			<div id="tab3">
+				<ul class="news1">
+					<li><li><p><a href="">场站管理分公司 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">关于认真做好历史文献纪录片《筑梦中国》的学习与通知</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">场站管理分公司 2015五一值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">场站管理分公司 2015五一值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+				</ul>
+			</div>
+			<div id="tab4">
+				<ul class="news1">
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">场站管理分公司 2015五一值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">场站管理分公司 2015五一值班表</a></p><span>2015-09-01</span></li>
+					<li><li><p><a href="">喜 报 2015抗战阅兵值班表</a></p><span>2015-09-01</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="main2-right fl">
+			<h3>专业化管理 </h3>
+			<div class="profess">
+				<ul>
+					<li><a href="">场站公司劳务工情况调研</a></li>
+					<li><a href="">场站公司《劳动合同法》学习贯彻情况</a></li>
+					<li><a href="">有关劳动保护方面的情况汇报</a></li>
+					<li><a href="">场站公司劳务工情况调研</a></li>
+					<li><a href="">场站公司《劳动合同法》学习贯彻情况</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="clr"></div>
+	</div>
+	<div class="main3">
+		<h3>场站风貌</h3>
+		<div class="box">
+			<div class="picbox">
+				<ul class="piclist mainlist">
+					<li><a href="#" target="_blank"><img src="images/com-1.jpg" width="277" height="200" /></a></li>
+					<li><a href="#" target="_blank"><img src="images/com-2.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="images/com-3.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="images/com-4.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="images/com-5.jpg" /></a></li>  
+					<li><a href="#" target="_blank"><img src="images/com-4.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="images/com-5.jpg" /></a></li> 
+					<li><a href="#" target="_blank"><img src="images/com-4.jpg" /></a></li>
+					
+				</ul>
+				<ul class="piclist swaplist"></ul>
+			</div>
+			<div class="og_prev"></div>
+			<div class="og_next"></div>
+		</div>
+	</div>
+	<div class="main4">
+		<div class="plat">
+			<div class="plat_prev"></div>
+			<ul class="platbox">
+				<li>
+					<a href=""><img src="images/icon-1.png"></a>
+					<div class="li_r">
+						<div class="title">二级信息平台</div>
+						<p>各种信息平台入口平台入口</p>
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="images/icon-2.png"></a>
+					<div class="li_r">
+						<div class="title">久事租赁系统</div>
+						<p>负责车辆租赁</p>
+					</div>
+				</li>
+				<li>
+					<a href=""><img src="images/icon-3.png"></a>
+					<div class="li_r">
+						<div class="title">人事系统</div>
+						<p>人员招聘 工资细则</p>
+					</div>
+				</li>
+				<li class="li_bn">
+					<a href=""><img src="images/icon-4.png"></a>
+					<div class="li_r">
+						<div class="title">后台管理</div>
+						<p>后台事务处理</p>
+					</div>
+				</li>
+			</ul>			
+			<div class="plat_next"></div>
+		</div>
+	</div>
+	<div class="main5">
+		<h2>友情链接</h2>
+		<div class="ship">
+			<a href="">久事公司</a>
+			<a href="">上海交通投资（集团）有限公司 </a>
+			<a href="">上海巴士公交（集团）有限公司 </a>
+			<a href="">上海强生控股股份有限公司  </a>
+			<a href="">上海申通地铁集团有限公司</a>
+			<div class="clr"></div>
+		</div>
+	</div>
+</div>
+<div class="bottom">
+<p>Copyright Right © 2011-2013 Powered By 上海交通投资(集团)场站管理分公司
+</p>
+</div>
+</body>
+<script type="text/javascript">
+$(function() {
+    $('.honor-content').unslider();
+});
+$(function() {
+    $('.company-content').unslider();
+});
+</script>
+</html>
